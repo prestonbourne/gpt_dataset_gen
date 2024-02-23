@@ -16,4 +16,23 @@ The GPT Data Generator is a Python-based tool designed to generate JSON data for
 1. Clone the repository:
 
     ```bash
-    git clone <repository-url>
+    git clone https://github.com/prestonbourne/gpt_dataset_gen.git
+    ```
+
+2. Enter your OpenAI key
+    - Create a `.env` file
+    - Set your openai key
+
+    ```plaintext
+    OPENAI_API_KEY="<your-key-here>"
+    ```
+
+3. Install Dependencies
+    - Ensure you're at the project root
+    - Run
+
+    ```bash
+    pip install
+    ```
+
+4. Run the `main.py` file!
